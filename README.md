@@ -36,3 +36,55 @@ This repo is synced automatically with [TryGhost/Themes](https://github.com/TryG
 # Copyright & License
 
 Copyright (c) 2013-2023 Ghost Foundation - Released under the [MIT license](LICENSE).
+
+# Code Injection
+
+Site header
+
+<style>
+  
+a.m-icon-button {
+  display: none;
+}
+.m-heading {
+    margin: 40px auto 40px;
+    text-align: center;
+}
+
+.gh-article-meta {
+    align-items: center;
+    /* display: none; */
+    gap: 8px;
+    margin-left: 6px;
+    margin-top: 20px;
+}
+
+.gh-article-image {
+    grid-column: wide;
+    margin-top: 40px;
+    display: none;
+}
+  
+</style>
+
+Site footer
+
+<style>
+
+  .m-footer-copyright {
+    display: none;
+  }
+    
+  [data-theme=dark] {
+    --footer-background-color: #111;
+  }
+  
+  [data-theme=light] {
+    --footer-background-color: #343a40;
+  }
+  
+  .gh-footer-copyright {
+      display: none;
+  } 
+  
+</style>
